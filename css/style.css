@@ -1,0 +1,101 @@
+.container {
+  min-width: 320px;
+}
+.offers{
+  min-width: 340px;
+}
+.contact-us-first{
+  min-width: 340px;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(../assets/fonts/lato.woff);
+}
+@font-face {
+  font-family: raleway;
+  src: url(../assets/fonts/raleway.woff);
+}
+
+@media (max-width: 640px) {
+  .hero {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) -13.19%,
+        rgba(0, 0, 0, 0.85) 94.01%
+      ),
+      url(../assets/images/hero-background.png);
+    background-size: cover;
+    min-width: 340px;
+    background-position: center;
+  }
+  .contact-us{
+    background-image: url(../assets/images/contact-us.png);
+    background-size: cover;
+    min-width: 340px;
+    background-position: center;
+    width: 100%;
+    height: 360px;
+  }
+}
+@media (min-width: 641px) and (max-width: 1000px) {
+  .hero {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) -13.19%,
+        rgba(0, 0, 0, 0.85) 94.01%
+      ),
+      url(../assets/images/hero-background-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .contact-us{
+    background-image: url(../assets/images/contact-us-tablet.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 601px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1240px) {
+  .hero {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) -13.19%,
+        rgba(0, 0, 0, 0.85) 94.01%
+      ),
+      url(../assets/images/hero-background-largetablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .contact-us{
+    background-image: url(../assets/images/contact-us-largetablet.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 602px;
+  }
+}
+
+@media (min-width: 1240px) {
+    .hero {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.2) -13.19%,
+          rgba(0, 0, 0, 0.85) 94.01%
+        ),
+        url(../assets/images/hero-background-desktop.png);
+      background-size: cover;
+      background-position: center;
+      max-width: 1600px;
+      margin: auto;
+    }
+    .contact-us{
+      background-image: url(../assets/images/contact-us-largetablet.png);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 602px;
+    }
+  }
+  
